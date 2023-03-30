@@ -1,0 +1,104 @@
+.navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    width: 0%;
+    content: "";
+    height: 3px;
+    transition: all 0.3s;
+    border-radius: 30px;
+}
+
+.navbar .navbar-nav .nav-link.active::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    width: 35%;
+    content: "";
+    height: 3px;
+    border-radius: 30px;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+}
+
+.cursor-default{
+    cursor: default;
+}
+
+
+.bgc-blue500 {
+    background-color: rgb(59, 130, 246);
+}
+
+.c-blue500 {
+    color: rgb(59, 130, 246);
+}
+
+.bgc-yellow500 {
+    background-color: rgb(234, 179, 8);
+}
+
+.bgc-emerald600 {
+    background-color: rgb(5, 150, 105);
+}
+
+.bgc-rose700 {
+    background-color: rgb(190, 18, 60);
+}
+
+
+.bgc-navCCC {
+    background-color: #438ff4;
+}
+
+.tc-blue500 {
+    color: rgb(59, 130, 246);
+}
+
+.tc-yellow500 {
+    color: rgb(234, 179, 8);
+}
+
+.tc-emerald600 {
+    color: rgb(5, 150, 105);
+}
+
+.tc-rose700 {
+    color: rgb(190, 18, 60);
+}
+
+.timeIn,
+.timeIn:focus{
+    color: rgb(59, 130, 246);
+}
+
+.timeOut,
+.timeOut:focus{
+    color: rgb(190, 18, 60);
+}
+
+.breakOut,
+.breakOut:focus{
+    color: rgb(234, 179, 8);
+}
+
+.breakIn,
+.breakIn:focus{
+    color: rgb(5, 150, 105);
+}
